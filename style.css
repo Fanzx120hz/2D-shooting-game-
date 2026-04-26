@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  font-family: Arial;
+  color: white;
+  text-align: center;
+}
+
+canvas {
+  background: #111;
+  display: block;
+  margin: auto;
+  border: 2px solid white;
+}
+
+#controls {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+#respawnBtn {
+  display: none;
+  margin-top: 10px
+}
